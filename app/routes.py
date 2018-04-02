@@ -8,4 +8,4 @@ def index():
 #Check
 @app.route('/test')
 def test():
-	return "<p>test</p>"
+	return "<h1>test</h1>"
