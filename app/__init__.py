@@ -1,10 +1,7 @@
-from flask import Flask, render_template
-
-
-app = Flask(__name__)
-
+from flask import Flask
 from app import routes
 
+app = Flask(__name__)
 
 
 if __name__  == '__main__':
